@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografía Personal</title>
+
+    <!-- Estilos CSS -->
+    <style>
+        body {
+            font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1, h2, h3 {
+            color: #001f3f; /* Azul marino */
+        }
+        p, li, label, td, th {
+            color: #000; /* Negro */
+            font-size: 14px;
+        }
+        section {
+            margin: 20px auto;
+            padding: 15px;
+            width: 80%;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+        }
+        img {
+            border-radius: 10px;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 70%;
+        }
+        table, th, td {
+            border: 1px solid #001f3f;
+        }
+        th {
+            background-color: #001f3f;
+            color: white;
+            padding: 8px;
+        }
+        td {
+            padding: 8px;
+        }
+        form {
+            margin-top: 10px;
+        }
+        input, textarea, button {
+            margin: 5px;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #001f3f;
+            font-family: "Arial Rounded MT Bold", Arial, sans-serif;
+        }
+        button {
+            background-color: #001f3f;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Biografía Personal</h1>
+        <p>Conoce un poco más sobre mí.</p>
+    </header>
+
+    <main>
+        <!-- Biografía -->
+        <section>
+            <h2>Pamela Castillo</h2>
+            <p>hola, mi nombre es pamela, soy estudiante de programaciion en el cetis, y me gustaria estudiar medicina </p>
+
+            <!-- Listas -->
+            <h3>Mis hobbies</h3>
+            <ol>
+                <li>bailar</li>
+                <li>box</li>
+                <li>escuchar musica</li>
+            </ol>
+
+            <h3>Mis comidas favoritas</h3>
+            <ul>
+                <li>pollo a la reina <li>
+                <li>Tacos</li>
+                <li>pescado</li>
+            </ul>
+
+            <!-- Imagen -->
+            <h3>Mi foto</h3>
+            <img src="WhatsApp Image 2025-09-26 at 12.06.54 PM (1).jpeg" alt="Foto de pamela">
+
+            <!-- Hipervínculo -->
+            <p>Visita mi red social: 
+                <a href="https://www.instagram.com/pamecasst.ll?igsh=MWVyZm5pcXR2YTB2bQ==" target="_blank">instagram</a>
+            </p>
+        </section>
+
+        <!-- Tabla -->
+        <section>
+            <h2>Resumen</h2>
+            <table>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Edad</th>
+                    <th>Ciudad</th>
+                </tr>
+                <tr>
+                    <td>pamela castiilo</td>
+                    <td>17</td>
+                    <td>los mochis, sinaloa </td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Formulario -->
+        <section>
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email"><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje"></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Multimedia -->
+        <section>
+            <h2>Video favorito</h2>
+            <video width="320" height="240" controls>
+                <source src="WhatsApp Video 2025-09-26 at 10.34.27 AM (1).mp4" type="video/mp4">
+                Tu navegador no soporta video en HTML5.
+            </video>
+
+            <h2>Música favorita</h2>
+            <audio controls>
+                <source src="https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH?si=OuziIHBtRyqPDD39suOc-w%0A" type="audio/mpeg" ><h3>billie eilish </h3>
+                Tu navegador no soporta audio en HTML5.
+            </audio>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Biografía Personal</p>
+    </footer>
+</body>
+</html>
